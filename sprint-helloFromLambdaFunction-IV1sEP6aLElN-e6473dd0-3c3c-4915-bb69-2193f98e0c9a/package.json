@@ -1,0 +1,19 @@
+{
+  "name": "replaced-by-user-input",
+  "description": "replaced-by-user-input",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "aws-sdk": "^2.1111.0",
+    "axios": "^0.27.2"
+  },
+  "scripts": {
+    "preinstall": "npm install --platform=linux --arch=x64 --no-save sharp"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
+  },
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
+}
